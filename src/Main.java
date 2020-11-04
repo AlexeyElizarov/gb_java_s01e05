@@ -8,8 +8,6 @@ public class Main {
         staff[3] = new Employee("Мойдодыр", "Баньщик", "anzor_sauna@gmail.com", "+7 343 872 014", 300.15f, 35);
         staff[4] = new Employee("Алёнушка", "Хостесс", "tyan_na_maximalkah@gmail.com", "+7 343 696 969", 250.15f, 25);
 
-        System.out.print("dasfdsfsdf");
-
         for (int i = 0; i < staff.length; i++) {
             if (staff[i].age < 40) {
                 staff[i].displayHRInfoRecord();

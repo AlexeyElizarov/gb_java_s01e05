@@ -9,7 +9,7 @@ public class Main {
         staff[4] = new Employee("Алёнушка", "Хостесс", "tyan_na_maximalkah@gmail.com", "+7 343 696 969", 250.15f, 25);
 
         for (int i = 0; i < staff.length; i++) {
-            if (staff[i].age >= 40) {
+            if (staff[i].getAge() >= 40) {
                 staff[i].displayHRInfoRecord();
             }
         }

@@ -3,8 +3,8 @@ public class Employee {
     public String position;
     public String email;
     public String phone;
-    float salary;
-    int age;
+    private float salary;
+    private int age;
 
     public Employee(){
     }
